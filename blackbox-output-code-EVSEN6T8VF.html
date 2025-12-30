@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radha Krishna Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <img src="images/logo.png" alt="Radha Krishna Logo" class="logo-img">
+            <h1 class="logo">Radha Krishna</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="hero" style="background-image: url('images/food.jpg');">
+            <h1>Radha Krishna Restaurant</h1>
+            <p class="tagline">Authentic Flavors from India</p>
+            <p class="welcome">Welcome to Radha Krishna, where tradition meets taste. Enjoy a culinary journey through India's finest dishes.</p>
+            <div class="cta-buttons">
+                <a href="#menu" class="btn">View Menu</a>
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section">
+        <h2>Our Menu</h2>
+        <div class="menu-categories">
+            <div class="category">
+                <h3>Pizza</h3>
+                <div class="menu-item">
+                    <h4>Veg Pizza</h4>
+                    <p>Fresh vegetables on a crispy base.</p>
+                    <span class="price">₹120</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Cheese Pizza</h4>
+                    <p>Melted cheese with herbs.</p>
+                    <span class="price">₹160</span>
+                </div>
+            </div>
+            <div class="category">
+                <h3>Burger</h3>
+                <div class="menu-item">
+                    <h4>Veg Burger</h4>
+                    <p>Veggie patty with fresh toppings.</p>
+                    <span class="price">₹60</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Cheese Burger</h4>
+                    <p>Cheese-loaded patty burger.</p>
+                    <span class="price">₹80</span>
+                </div>
+            </div>
+            <div class="category">
+                <h3>Sandwich</h3>
+                <div class="menu-item">
+                    <h4>Veg Sandwich</h4>
+                    <p>Grilled veggies between bread.</p>
+                    <span class="price">₹50</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Chicken Sandwich</h4>
+                    <p>Tender chicken with spices.</p>
+                    <span class="price">₹70</span>
+                </div>
+            </div>
+            <div class="category">
+                <h3>South Indian</h3>
+                <div class="menu-item">
+                    <h4>Masala Dosa</h4>
+                    <p>Crispy dosa with potato filling.</p>
+                    <span class="price">₹70</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Idli Sambar</h4>
+                    <p>Steamed idlis with sambar.</p>
+                    <span class="price">₹60</span>
+                </div>
+            </div>
+            <div class="category">
+                <h3>Chinese</h3>
+                <div class="menu-item">
+                    <h4>Fried Rice</h4>
+                    <p>Vegetable fried rice with spices.</p>
+                    <span class="price">₹90</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Noodles</h4>
+                    <p>Stir-fried noodles with veggies.</p>
+                    <span class="price">₹100</span>
+                </div>
+            </div>
+            <div class="category">
+                <h3>Beverages</h3>
+                <div class="menu-item">
+                    <h4>Lassi</h4>
+                    <p>Traditional yogurt drink.</p>
+                    <span class="price">₹40</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Juice</h4>
+                    <p>Fresh fruit juice.</p>
+                    <span class="price">₹50</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>At Radha Krishna, we pride ourselves on serving quality food that delights the senses. Our chefs use fresh ingredients and traditional recipes to create dishes that emphasize taste and customer satisfaction. Whether you're craving Indian classics or fusion flavors, we're here to make every meal memorable.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> 7067693400</p>
+            <p><strong>Email:</strong> ram242003@gmail.com</p>
+            <p><strong>Location:</strong> Sagar, Madhya Pradesh, India</p>
+        </div>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Radha Krishna Restaurant. All rights reserved.</p>
+        <p>Contact: 7067693400 | ram242003@gmail.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

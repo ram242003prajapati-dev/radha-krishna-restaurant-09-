@@ -1,0 +1,20 @@
+# Radha Krishna Restaurant Website
+
+A modern, responsive website for Radha Krishna Restaurant in Sagar, Madhya Pradesh.
+
+## Setup
+1. Download all files into a folder named `radha-krishna-restaurant`.
+2. Add your images to the `images/` folder (logo.png and food.jpg).
+3. Open `index.html` in a web browser to view the site.
+4. For live hosting, upload to GitHub Pages, Netlify, or Vercel.
+
+## Features
+- Responsive design for mobile and desktop.
+- Menu with categorized items and editable prices.
+- Contact form with basic validation.
+- Smooth scrolling navigation.
+
+## Customization
+- Edit prices in `index.html`.
+- Change styles in `style.css`.
+- Add more JS features in `script.js`.
